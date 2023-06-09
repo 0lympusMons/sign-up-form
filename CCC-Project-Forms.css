@@ -1,0 +1,93 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.general__wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: blue; */
+}
+.general__wrapper .left__side {
+  width: 1000px;
+  background-color: black;
+}
+.general__wrapper .right__side {
+  display: flex;
+  flex-direction: column;
+}
+.general__wrapper .right__side--1,
+.general__wrapper .right__side--2,
+.general__wrapper .right__side--3 {
+  height: 100vh;
+  padding: 0 30px;
+}
+.general__wrapper .right__side--1 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 3vh;
+}
+.general__wrapper .right__side--1 .headline__wrapper {
+  width: 80%;
+}
+.general__wrapper .right__side--1 .headline__wrapper h2:nth-child(1) {
+  margin-bottom: 20px;
+}
+.general__wrapper .right__side--2 {
+  background-color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.general__wrapper .right__side--2 h2 {
+  margin: 10px 0 20px 0;
+}
+.general__wrapper .right__side--2 form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.general__wrapper .right__side--2 form .input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  gap: 3px;
+}
+.general__wrapper .right__side--2 form .input input {
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.142);
+  height: 25px;
+  padding: 0 5px;
+}
+.general__wrapper .right__side--3 button {
+  padding: 10px;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+.general__wrapper .right__side--3 {
+  margin-top: 30px;
+}
+.general__wrapper .right__side--3 h4 {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+.general__wrapper .right__side--3 h4 a {
+  text-decoration: none;
+  color: rgb(85, 153, 255);
+}
+.general__wrapper .right__side--3 button {
+  font-size: 1em;
+  border: black solid 1px;
+  padding: 10px 40px;
+}
+.general__wrapper .right__side--3 button:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=CCC-Project-Forms.css.map */
